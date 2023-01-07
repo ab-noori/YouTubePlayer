@@ -8,8 +8,45 @@ body {
 }
 
 header {
-    color: #FFFFFF;
-    background-color: #284b63;
-    padding: 80px 0;
-    text-align: center;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    position: fixed;
+    background-color: rgb(220, 7, 7);
+    font-size: 17px;
   }
+
+main{
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    background-color: rgb(137, 66, 66);
+}
+
+#play-area{
+    width: 65%;
+}
+
+#player{
+    height: 75vh;
+    margin: 5px;
+    background-color: rgb(188, 138, 138);
+}
+
+#comment{
+    height: 75vh;
+    margin: 5px;
+    background-color: rgb(188, 138, 138);
+}
+
+aside{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.related{
+    height: 15vh;
+    margin: 3px;
+    background-color: rgb(188, 138, 138);
+}
