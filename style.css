@@ -1,1 +1,15 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica, sans-serif;
+    line-height: 1.45;
+}
+
+header {
+    color: #FFFFFF;
+    background-color: #284b63;
+    padding: 80px 0;
+    text-align: center;
+  }
