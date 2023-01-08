@@ -184,7 +184,7 @@ header {
     width: 1280px;
     display: flex;
     border-radius: 15px;
-    background-color: rgb(189, 189, 189);
+    background-color: rgba(214, 212, 212, 0.851);
 }
 
 #play-area{
@@ -262,7 +262,7 @@ aside{
   margin: 7px;
   display: flex;
   border: 1px solid white;
-  background-color: rgb(220, 215, 215);
+  background-color: rgb(238, 234, 234);
   border-radius: 5px;
   cursor: pointer;
 }
