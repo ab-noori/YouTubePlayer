@@ -208,7 +208,7 @@ iframe{
 #comment{
     width: 100%;
     height: 72vh;
-    margin-top: 2px;
+    margin-top: 4px;
     border: 1px solid white;
     border-radius: 5px;
 }
@@ -219,8 +219,8 @@ aside{
 }
 
 .related{
-    height: 15vh;
-    margin: 3px;
+    height: 17vh;
+    margin: 4px;
     border: 1px solid white;
     border-radius: 5px;
 }
