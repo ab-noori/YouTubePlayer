@@ -178,15 +178,13 @@ header {
     cursor: pointer;
   }
 
-
-
-
 #main{
     margin: 65px auto;
     padding: 10px;
     width: 1280px;
     display: flex;
-    background-color: rgb(137, 66, 66);
+    border-radius: 15px;
+    background-color: rgb(189, 189, 189);
 }
 
 #play-area{
@@ -216,6 +214,26 @@ iframe{
 aside{
     width: 32%;
     margin: 0 auto;
+}
+
+.aside-header{
+  height: 8vh;
+  margin: 4px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.aside-buttons{
+  margin: 0;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: #3d3d3d;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-weight: 550;
 }
 
 .related{
