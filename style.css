@@ -14,7 +14,11 @@ body {
 
 header {
     position: fixed;
-    top: 0;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    border-bottom: 1px solid #dedede;
     width: 100%;
     height: 60px;
     display: flex;
@@ -53,7 +57,6 @@ header {
     font-size: medium;
     border: solid 1px #cccccc;
     border-radius: 40px 0 0 40px;
-
     box-shadow: inset 0px 1px 2px #eeeeee;
   }
 
@@ -181,29 +184,37 @@ header {
 #main{
     margin: 65px auto;
     padding: 10px;
-    width: 90%;
+    width: 1280px;
     display: flex;
     background-color: rgb(137, 66, 66);
 }
 
 #play-area{
-    width: 65%;
+    width: 66%;
 }
 
 #player{
-    height: 75vh;
-    margin: 5px;
-    background-color: rgb(188, 138, 138);
+    width: 100%;
+    height: 72vh;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
+iframe{
+    border-radius: 5px;
+}
+
+
 #comment{
-    height: 75vh;
-    margin: 5px;
-    background-color: rgb(188, 138, 138);
+    width: 100%;
+    height: 72vh;
+    margin-top: 2px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 aside{
-    width: 30%;
+    width: 32%;
     margin: 0 auto;
 }
 
