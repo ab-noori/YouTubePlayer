@@ -221,5 +221,6 @@ aside{
 .related{
     height: 15vh;
     margin: 3px;
-    background-color: rgb(188, 138, 138);
+    border: 1px solid white;
+    border-radius: 5px;
 }
