@@ -217,7 +217,7 @@ aside{
 }
 
 .aside-header{
-  height: 8vh;
+  height: 7vh;
   margin: 4px;
   display: flex;
   justify-content: space-around;
@@ -237,8 +237,16 @@ aside{
 }
 
 .related{
-    height: 17vh;
-    margin: 4px;
+    height: 14vh;
+    margin: 7px;
+    display: flex;
+    align-items: center;
     border: 1px solid white;
     border-radius: 5px;
+}
+
+.related img{
+  border-radius: 8px;
+  margin: 3px;
+  cursor: pointer;
 }
