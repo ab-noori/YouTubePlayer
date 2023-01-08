@@ -212,7 +212,7 @@ iframe{
 }
 
 aside{
-    width: 32%;
+    width: 34%;
     margin: 0 auto;
 }
 
@@ -222,7 +222,6 @@ aside{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid white;
   border-radius: 5px;
 }
 
@@ -232,6 +231,17 @@ aside{
   text-decoration: none;
   color: #3d3d3d;
   border: 1px solid black;
+  background-color: rgb(189, 189, 189);
+  border-radius: 8px;
+  font-weight: 550;
+}
+
+.active, .aside-buttons:hover{
+  margin: 0;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: black;
   border-radius: 8px;
   font-weight: 550;
 }
@@ -240,13 +250,34 @@ aside{
     height: 14vh;
     margin: 7px;
     display: flex;
-    align-items: center;
     border: 1px solid white;
     border-radius: 5px;
+    cursor: pointer;
+    font-size: small;
+    font-weight: 570;
 }
+
+.related:hover{
+  height: 14vh;
+  margin: 7px;
+  display: flex;
+  border: 1px solid white;
+  background-color: rgb(220, 215, 215);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.related:hover::after {
+  content: '\2807';
+  font-size: 20px;
+  }
 
 .related img{
   border-radius: 8px;
   margin: 3px;
   cursor: pointer;
+}
+
+.details{
+  margin: 3px;
 }
